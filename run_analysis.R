@@ -1,4 +1,4 @@
-# download zip file if not present in work directory
+# download zip file if not present in working directory
 dataZIP <- "getdata_projectfiles_UCI HAR Dataset.zip"
 if (!(file.exists(dataZIP))) {
     downloadURL <- paste("https://d396qusza40orc.cloudfront.net/",
