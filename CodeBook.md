@@ -138,6 +138,6 @@ The result of this step is the list of variables shown in the variable descripti
 #### Step 5: Creation of second tidy data set
 Using the `dplyr` package the `dataExtract` data frame is grouped per subject and per activity after which the average is calculated for each of the `subject/activity` combinations and for each extracted feature column.
 
-The resulting data frame `dataTidy` contains 180 rows (corresponding to the number of unique `subject/activity` combinations) and 68 columns (corresponding to the 68 columns from `dataExtract`). The rows are automatically sorted by increasing values of `subject`and `activity`. Since the data frame already satisfies the conditions of a tidy data set no additionally tidying operations are needed.
+The resulting data frame `dataTidy` contains 180 rows (corresponding to the number of unique `subject/activity` combinations) and 68 columns (corresponding to the 68 columns from `dataExtract`). The rows are automatically sorted by increasing values of `subject`and `activity`. Since the data frame already satisfies the conditions of a tidy data set no additional tidying operations are needed.
 
 Finally `dataTidy` is exported to a space-separated text file `tidy_data.txt`.
