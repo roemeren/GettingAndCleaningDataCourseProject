@@ -99,7 +99,7 @@ For each record in the resulting data set the following has been provided:
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
 
-__More details:__ check the [description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and the [readme file](https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) of the source data set
+__More details:__ check the [description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and the [readme file](https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names) of the source data set.
 
 ### Data extraction
 This section summarizes the different operations that are performed to derive the output tidy data set `tidy_data.txt` and executed by the R script `run_analysis.R`.
