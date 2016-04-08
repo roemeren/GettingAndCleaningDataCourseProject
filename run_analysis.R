@@ -46,7 +46,7 @@ dataExtract$subject = factor(dataExtract$subject)
 
 # step 4: set descriptive variable names
 # Initial column names from dataMerged are converted to camelCase:
-# a) removal of braces and underscores
+# a) removal of braces and dashes
 # b) each word (except the 1st) in the name begins with a capital letter
 # c) "BodyBody" is replaced with "Body"
 featCols <- gsub("-([a-z])", "\\U\\1", colnames(dataExtract), perl = TRUE)
